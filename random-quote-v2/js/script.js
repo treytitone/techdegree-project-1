@@ -41,7 +41,6 @@ returning that object.
 */
 function getRandomQuote(){
   var quoteObject = Math.floor(Math.random() * quotes.length);
-  console.log(quotes[quoteObject]);
   return (quotes[quoteObject]);
 }
 
